@@ -15,17 +15,39 @@ namespace issues
             //возможное количество отрезков длины B(без наложений).
             //Не используя операции умножения и деления, найти длину незанятой части отрезка A.
 
-            int a, b;
-            a = Convert.ToInt32(Console.ReadLine());    
-            b = Convert.ToInt32(Console.ReadLine());
-            int sumB = 0;
-            int shart = b;
-            while (shart < a)
+            //int a, b;
+            //a = Convert.ToInt32(Console.ReadLine());    
+            //b = Convert.ToInt32(Console.ReadLine());
+            //int sumB = 0;
+            //int shart = b;
+            //while (shart < a)
+            //{
+            //    sumB += b;
+            //    shart += b;
+            //}
+            //Console.WriteLine(a - sumB);
+
+            // 'while'dan 4-masla 
+
+            int n;
+            n = Convert.ToInt32(Console.ReadLine());
+            int daraja= 1, counter = 0;
+            while (daraja < n)
             {
-                sumB += b;
-                shart += b;
+                daraja *= 3;
+                counter++;
             }
-            Console.WriteLine(a - sumB);
+
+            // 3 
+
+            if(daraja == n)
+            {
+                Console.WriteLine("3 ning darajasi");
+            }
+            else
+            {
+                Console.WriteLine("emas");
+            }
         }
     }
 }
