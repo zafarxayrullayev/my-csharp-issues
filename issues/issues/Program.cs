@@ -56,25 +56,40 @@ namespace issues
 
             // 'while' dan 30-misol START
 
-            int a, b, c;
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
-            c = Convert.ToInt32(Console.ReadLine());
-            int countEni = 0, countBoyi = 0;
-            int shart = c;
-            while (shart < a)
-            {
-                countEni++;
-                shart += c;
-            }
-            shart = c;
-            while (shart < b)
-            {
-                countBoyi++;
-                shart += c;
-            }
+            //int a, b, c;
+            //a = Convert.ToInt32(Console.ReadLine());
+            //b = Convert.ToInt32(Console.ReadLine());
+            //c = Convert.ToInt32(Console.ReadLine());
+            //int countEni = 0, countBoyi = 0;
+            //int shart = c;
+            //while (shart < a)
+            //{
+            //    countEni++;
+            //    shart += c;
+            //}
+            //shart = c;
+            //while (shart < b)
+            //{
+            //    countBoyi++;
+            //    shart += c;
+            //}
+            //Console.WriteLine($"{countBoyi} * {countEni} = {countEni * countBoyi}");
 
-            Console.WriteLine($"{countBoyi} * {countEni} = {countEni * countBoyi}");
+
+            // 'while' dan 30-misol END
+
+            // 'while' dan 7-misol START
+
+            int n, k;
+            n = Convert.ToInt32(Console.ReadLine());
+            int i = 1;
+            while (i * i < n)
+            {
+                i++;
+            }
+            Console.WriteLine(i);
+            // 20, 5
+
         }
     }
 }
