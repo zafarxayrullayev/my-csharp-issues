@@ -1,0 +1,8 @@
+D:\MyC#\while-issue\issues\issues\obj\Debug\issues.csproj.AssemblyReference.cache
+D:\MyC#\while-issue\issues\issues\obj\Debug\issues.csproj.SuggestedBindingRedirects.cache
+D:\MyC#\while-issue\issues\issues\obj\Debug\issues.csproj.CoreCompileInputs.cache
+D:\MyC#\while-issue\issues\issues\bin\Debug\issues.exe.config
+D:\MyC#\while-issue\issues\issues\bin\Debug\issues.exe
+D:\MyC#\while-issue\issues\issues\bin\Debug\issues.pdb
+D:\MyC#\while-issue\issues\issues\obj\Debug\issues.exe
+D:\MyC#\while-issue\issues\issues\obj\Debug\issues.pdb
