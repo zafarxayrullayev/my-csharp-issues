@@ -27,27 +27,54 @@ namespace issues
             //}
             //Console.WriteLine(a - sumB);
 
-            // 'while'dan 4-masla 
 
-            int n;
-            n = Convert.ToInt32(Console.ReadLine());
-            int daraja= 1, counter = 0;
-            while (daraja < n)
+
+            // 'while'dan 4-masla  START
+
+            //int n;
+            //n = Convert.ToInt32(Console.ReadLine());
+            //int daraja= 1, counter = 0;
+            //while (daraja < n)
+            //{
+            //    daraja *= 3;
+            //    counter++;
+            //}
+
+            //// 3 
+
+            //if(daraja == n)
+            //{
+            //    Console.WriteLine("3 ning darajasi");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("emas");
+            //}
+
+
+            // 'while'dan 4-masla  END
+
+            // 'while' dan 30-misol START
+
+            int a, b, c;
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+            c = Convert.ToInt32(Console.ReadLine());
+            int countEni = 0, countBoyi = 0;
+            int shart = c;
+            while (shart < a)
             {
-                daraja *= 3;
-                counter++;
+                countEni++;
+                shart += c;
+            }
+            shart = c;
+            while (shart < b)
+            {
+                countBoyi++;
+                shart += c;
             }
 
-            // 3 
-
-            if(daraja == n)
-            {
-                Console.WriteLine("3 ning darajasi");
-            }
-            else
-            {
-                Console.WriteLine("emas");
-            }
+            Console.WriteLine($"{countBoyi} * {countEni} = {countEni * countBoyi}");
         }
     }
 }
